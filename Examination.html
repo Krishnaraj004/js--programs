@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let arr1=[1,2,3,4]
+    let arr2=[4,5,6,7]
+    console.log("Array intersection")
+    for(let i=0;i<arr1.length;i++){
+      for(let j=0;j<arr2.length;j++){
+          if(arr1[i]==arr2[j])
+            console.log(arr1[i])
+      }
+    }
+
+
+    let str="this is the java progamming";
+    let s=str.split(" ")
+    console.log("Array spliting")
+    console.log(s)
+
+    let ar =[1,2,3,4,5]
+    let n=3;
+    ar[n]=5;
+    console.log("Insert element at specific index in an array")
+    console.log(ar)
+
+    let arr_of =[[1,2,3,4],[4,5,5,6],[6,7,8]]
+    console.log("creating and printing array of array")
+    console.log(arr_of)
+    
+     
+    let x=[1,2,3,4]
+    let y=[1,2,3,4]
+    let flag=false;
+    for(let h=0;h<x.length;h++){
+      if(x[h]==y[h]){
+        flag=true;
+        continue;
+      }
+    }
+    if(flag==true)
+      console.log("the above two arrays are equal")
+  
+
+    </script>
+</body>
+</html>
